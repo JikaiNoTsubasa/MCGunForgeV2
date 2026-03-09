@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
  */
 public class ReflectionUtil
 {
-    private static final Method updateRedstoneOutputMethod = ObfuscationReflectionHelper.findMethod(TargetBlock.class, "m_57391_", LevelAccessor.class, BlockState.class, BlockHitResult.class, Entity.class);
+    private static final Method updateRedstoneOutputMethod = ObfuscationReflectionHelper.findMethod(TargetBlock.class, "m_avdjuakg", LevelAccessor.class, BlockState.class, BlockHitResult.class, Entity.class);
 
     public static int updateTargetBlock(TargetBlock block, LevelAccessor accessor, BlockState state, BlockHitResult result, Entity entity)
     {

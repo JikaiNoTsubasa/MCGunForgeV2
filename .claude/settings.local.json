@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "WebSearch",
+      "WebFetch(domain:www.curseforge.com)",
+      "WebFetch(domain:mappings.xhyrom.dev)",
+      "Bash(gradlew clean:*)",
+      "Bash(.gradlew.bat:*)",
+      "Bash(cmd /c gradlew clean)",
+      "Bash(./gradlew clean:*)",
+      "Bash(./gradlew build:*)"
+    ]
+  }
+}
